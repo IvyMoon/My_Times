@@ -1,0 +1,41 @@
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+   /* Ok, so this isn't doing anything, but why???*/
+  position: relative;
+  flex: 2;
+}
+
+.li {
+  align-self: flex-end;
+  color: black;
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+
+a {
+  color: black;
+}
+
+p {
+  margin: 20px;
+}
+
+#line {
+  border: 1px solid black;
+}
+
+/* NEED to fix links (make black, on far right, left to right horizontal,
+and don't change color to red when mouse hovers over the link); fix bottom
+black line (make thinner)*/
