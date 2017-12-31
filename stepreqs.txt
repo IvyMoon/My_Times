@@ -1,0 +1,29 @@
+1. Create a folder with index.html and style.css files
+2. Create a header for the top of the page. Listed below is additional
+   information to help you recreate this header.
+   1. The header is a flex container.
+   2. The logo and navigation are flex items
+   3. The navigation is a list of inline-block spans
+   4. The header has the following properties and values:
+      font-family: Verdana;
+      font-size: 14px;
+      font-weight: bold;
+    1. The logo's color is MediumAquamarine.
+3. Create the main container with content inside of it.
+   To begin, include borders around each of the divs. This will help keep track
+   of the flex containers. We will remove them during a later step.
+   Listed below is additional information to help you recreate this content
+   container.
+      1. The main content container is a flex container.
+      2. Each of the three columns is a flex item and flex container.
+      3. The left (large), middle (medium), and right (small) columns have the
+         following widths:
+            .column.large {
+              width: 630px;
+            }
+            .column.medium {
+              width: 300px;
+            }
+            .column.small {
+              width: 240px;
+            }

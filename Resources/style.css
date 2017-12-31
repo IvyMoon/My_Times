@@ -9,11 +9,11 @@
 }
 
 .navigation {
-  display: flex;
-  justify-content: flex-end;
-   /* Ok, so this isn't doing anything, but why???*/
-  position: relative;
-  flex: 2;
+  display: inline-block;
+}
+
+#title {
+  flex: 1;
 }
 
 .li {
@@ -35,7 +35,33 @@ p {
 #line {
   border: 1px solid black;
 }
+/* NEED to fix bottom black line (make thinner)*/
 
-/* NEED to fix links (make black, on far right, left to right horizontal,
-and don't change color to red when mouse hovers over the link); fix bottom
-black line (make thinner)*/
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.middleContent {
+  display: flex;
+}
+
+section {
+  border: 1px solid black;
+}
+
+article {
+  border: thin solid black;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
