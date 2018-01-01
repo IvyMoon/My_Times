@@ -27,3 +27,20 @@
             .column.small {
               width: 240px;
             }
+4. Add images to the web page.
+   Listed below is additional information to help you recreate this content
+   container.
+       1. Each image is the background of a div.
+       2. The image divs are flex containers.
+       3. The headlines inside them are flex items.
+       4. The text for each story should have the following CSS styles:
+          font-family: Georgia;
+          font-size: 17px;
+          color: black;
+         1. The text on each image should have the following CSS styles:
+          font-family: Georgia;
+          font-weight: bold;
+          font-size: 30px;
+          color: white;
+         1. The text on the main story should have the same values as above, but
+            a font-size of 40px.
