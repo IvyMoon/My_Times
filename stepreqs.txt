@@ -44,3 +44,37 @@
           color: white;
          1. The text on the main story should have the same values as above, but
             a font-size of 40px.
+5. Make the story divs flexible.
+   Listed below is additional information to help you recreate this content
+   container.
+       1. The stories, with their headlines, images, and text are flex items.
+       2. In the first column, the flex items should be horizontally aligned.
+------Ok, so I got stuck here.------------------------------^^^-----------------
+6. Listed below is additional information to help you recreate the news bites:
+       1. The third column's flex direction is column.
+       2. These flex items have no margin and a black border on the top and
+          bottom.
+       3. The NEWS BITES text should have the following CSS styles:
+          font-size: 16px;
+          font-weight: bold;
+         1. The list of news bites should have the following CSS styles:
+            background-color: WhiteSmoke;
+            font-family: Verdana;
+            font-size: 12px;
+            color: DimGray;
+7. Create a footer.
+   Listed below is additional information to help you recreate the footer.
+       1. The footer is a flex container.
+       2. The content inside the footer is centered along the vertical and
+          horizontal axes.
+       3. The content in the footer should have the following CSS styles:
+          background-color: MediumAquamarine;
+          margin: auto;
+          font-family: Verdana;
+          font-size: 12px;
+        1. The MY Times title in the footer should have the following CSS
+           styles:
+           font-family: Georgia;
+           font-size: 16px;
+           font-weight: bold;
+           color: white;
